@@ -5,10 +5,12 @@ const countries = ['ilan', 'deenen',  'Ienmark', 'nelly'];
     if ( countries[i].startsWith("j") ||countries[i].startsWith("j")) {
     
     console.log("Goodbye " + countries[i]);
+    document.write("Goodbye " + countries[i] + "<br/> ");
     }
     else
     {
       console.log("hello " + countries[i]);
+      document.write("Goodbye " + countries[i] + "<br/> ");
     }
   }
   
