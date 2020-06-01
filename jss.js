@@ -1,8 +1,8 @@
-const countries = ['ilan', 'deenen',  'Ienmark', 'nelly'];
+const countries = ['jlan', 'deenen',  'Jenmark', 'nelly'];
 
 
   for (let i=0; i<countries.length; i++) {
-    if ( countries[i].startsWith("j") ||countries[i].startsWith("j")) {
+    if ( countries[i].startsWith("J") ||countries[i].startsWith("j")) {
     
     console.log("Goodbye " + countries[i]);
     document.write("Goodbye " + countries[i] + "<br/> ");
