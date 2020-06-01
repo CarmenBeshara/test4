@@ -10,7 +10,7 @@ const countries = ['ilan', 'deenen',  'Ienmark', 'nelly'];
     else
     {
       console.log("hello " + countries[i]);
-      document.write("Goodbye " + countries[i] + "<br/> ");
+      document.write("hello " + countries[i] + "<br/> ");
     }
   }
   
